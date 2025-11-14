@@ -1,0 +1,162 @@
+.App {
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9fafb;
+  min-height: 100vh;
+  padding: 40px 20px;
+}
+
+h2 {
+  color: #2f3a8f;
+  margin-bottom: 10px;
+}
+
+.success {
+  background-color: #e0f7e9;
+  color: #0f5132;
+  border: 1px solid #badbcc;
+  padding: 10px;
+  width: 60%;
+  margin: 10px auto;
+  border-radius: 6px;
+  font-weight: 500;
+}
+
+form {
+  background-color: #ffffff;
+  display: inline-block;
+  padding: 20px 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  width: 100%;
+  max-width: 400px;
+}
+
+form div {
+  margin-bottom: 15px;
+}
+
+label {
+  font-weight: 600;
+  color: #333;
+}
+
+input {
+  width: 100%;
+  padding: 8px 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #2f3a8f;
+  box-shadow: 0 0 5px rgba(47, 58, 143, 0.3);
+}
+
+button {
+  padding: 8px 14px;
+  margin: 4px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 14px;
+}
+
+button[type="submit"] {
+  background-color: #2f3a8f;
+  color: white;
+  width: 100%;
+}
+
+button[type="submit"]:hover {
+  background-color: #1e276d;
+}
+
+button.edit {
+  background-color: #ffc107;
+  color: #000;
+}
+
+button.edit:hover {
+  background-color: #e0a800;
+}
+
+button.delete {
+  background-color: #dc3545;
+  color: white;
+}
+
+button.delete:hover {
+  background-color: #b02a37;
+}
+
+table {
+  margin: 20px auto;
+  border-collapse: collapse;
+  width: 80%;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+th {
+  background-color: #2f3a8f;
+  color: white;
+  padding: 10px;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+td {
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+  color: #333;
+}
+
+tr:hover {
+  background-color: #f2f2f2;
+}
+nav {
+  background: #222;
+  padding: 10px;
+}
+nav a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+.navbar {
+  background-color: #1e1e1e;
+  padding: 10px 20px;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.navbar a {
+  color: #ccc;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 6px 12px;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.navbar a:hover {
+  background-color: #333;
+  color: white;
+}
+
+.active-link {
+  background-color: #0078ff;
+  color: white !important;
+}

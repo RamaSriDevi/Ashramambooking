@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #8c949b;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* === USER LIST TABLE STYLES === */
+.user-list {
+  overflow-x: auto; /* Enables horizontal scrolling */
+  padding: 20px;
+}
+
+.user-list table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed; /* Keeps columns uniform */
+  white-space: nowrap; /* Prevents text from wrapping */
+}
+
+.user-list th,
+.user-list td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  text-overflow: ellipsis; /* Adds "..." for long text */
+  overflow: hidden;
+  max-width: 250px; /* You can adjust this width if needed */
+}
+
+.user-list th {
+  background-color: #2f3c7e;
+  color: white;
+}
+
+.user-list td button {
+  background-color: #2f3c7e;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.user-list td button:hover {
+  background-color: #253266;
+}
+
+/* === SUCCESS & ALERT MESSAGE STYLES === */
+.success {
+  font-weight: bold;
+  color: #2f3c7e;
+  background-color: #d0d8ff;
+  padding: 10px;
+  border-radius: 6px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+/* === ADD NEW LINK === */
+.add-new {
+  display: inline-block;
+  margin-bottom: 15px;
+  font-weight: bold;
+  color: #2f3c7e;
+  text-decoration: none;
+}
+
+.add-new:hover {
+  text-decoration: underline;
+}
